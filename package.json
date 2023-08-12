@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://muhammadrivan3/github.io/MuhammadRivan",
+  "homepage": "https://muhammadrivan3.github.io/MuhammadRivan",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
