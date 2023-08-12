@@ -1,5 +1,5 @@
 <h1>OKE OCE</h1>
-
+<p>jadi gini bro</p>
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
