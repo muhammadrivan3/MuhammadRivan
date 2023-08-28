@@ -23,19 +23,19 @@ I have educational background or experience in various programming languages and
 as well as an understanding of programming concepts and algorithms.
           </p>
           <div>
-            <a href="https://www.youtube.com/channel/UCnRa9nzr0VqiZmo3r660HaA" target="_blank">
+            <a href="https://www.youtube.com/channel/UCnRa9nzr0VqiZmo3r660HaA" target="_blank" style={{pointerEvents:"auto"}}>
               <i className="fa fa-youtube" id="youtube"></i>
             </a>
-            <a href="https://www.instagram.com/ex_code_/"target="_blank">
+            <a href="https://www.instagram.com/ex_code_/"target="_blank" style={{pointerEvents:"auto"}}>
               <i className="fa fa-instagram" id="instagram"></i>
             </a>
-            <a href="https://twitter.com/excode01"target="_blank">
+            <a href="https://twitter.com/excode01"target="_blank" style={{pointerEvents:"auto"}}>
               <i className="fa fa-twitter" id="twitter"></i>
             </a>
-            <a href="https://www.facebook.com/profile.php?id=100086673033970" target="_blank">
+            <a href="https://www.facebook.com/profile.php?id=100086673033970" target="_blank" style={{pointerEvents:"auto"}}>
               <i className="fa fa-facebook-square" id="facebook"></i>
             </a>
-            <a href="https://github.com/excode0"target="_blank">
+            <a href="https://github.com/muhammadrivan3" target="_blank" style={{pointerEvents:"auto"}}>
               <i className="fa fa-github-square github" id="github"></i>
             </a>
           </div>

@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
 import { About, Hero, Navbar } from "./components";
 import { ReactComponent as Hexagon } from "./assets/hexagon.svg";
+import Contact from "./components/Contact";
 function App() {
   const numHexagonSVGs = 30;
   return (
@@ -12,14 +13,14 @@ function App() {
           <div className="w-full h-full object-cover z-0 absolute">
             <div className="row-hexagon">
               {Array.from({ length: numHexagonSVGs }).map((_, index) => {
-                return <div className="hexagon"></div>;
+                return <div key={"hexagonTop"+index.toString()} className="hexagon"></div>;
               })}
             </div>
             {Array.from({ length: 10 }).map((_, index) => {
               return (
-                <div className="row-hexagon">
+                <div key={"hexagonContainer"+index} className="row-hexagon">
                   {Array.from({ length: numHexagonSVGs }).map((_, index) => {
-                    return <div className="hexagon"></div>;
+                    return <div key={"hexagonChild"+index} className="hexagon"></div>;
                   })}
                 </div>
               );
@@ -30,7 +31,7 @@ function App() {
           <Hero />
         </div>
         <About />
-        <div>HELLO WORLD</div>
+        <Contact/>
       </div>
     </BrowserRouter>
   );
