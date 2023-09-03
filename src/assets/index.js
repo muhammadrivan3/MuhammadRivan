@@ -13,6 +13,8 @@ import ic_html from './ic_html.svg'
 import ic_css from './ic_css.svg'
 import ic_javascript from './ic_javascript.svg'
 import ic_dart from './ic_dart.svg'
+import ic_db from './ic_db.png'
+import ic_framework from './ic_framework.png'
 
 
 
@@ -32,5 +34,6 @@ export{
     ic_html,
     ic_javascript,
     ic_dart,
-    
+    ic_db,
+    ic_framework,
 }

@@ -1,12 +1,13 @@
-import { ic_development,ic_python,ic_c,ic_cpp,ic_java,ic_php,ic_react,ic_css,ic_html,ic_javascript,ic_dart } from "../assets";
+import { ic_development,ic_db,ic_framework,ic_cpp,ic_java,ic_php,ic_react,ic_css,ic_html,ic_javascript,ic_dart } from "../assets";
+
 export const navLinks = [
      {
       id: "about",
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -15,62 +16,40 @@ export const navLinks = [
 ]
 const services = [
   {
-    title: "PYTHON",
-    icon: ic_python,
+    title: "LANGUAGE",
+    icon: ic_development,
+    skillService: "C, C++, Python, Java, Php, Dart, Html, Css, JavaScript",
   },
   {
-    title: "C",
-    icon: ic_c,
+    title: "DATABASE",
+    skillService: "MySQL, PostgreSQL, SQLITE, MongoDB",
+    icon: ic_db,
   },
   
-  {
-    title: "C++",
-    icon: ic_cpp,
-  },
-  {
-    title: "PHP",
-    icon: ic_php,
-  },
   // {
-  //   title: "HTML",
-  //   icon: ic_html,
+  //   title: "LIBRARY",
+  //   icon: ic_cpp,
+  //   skillService: "Numpy, Pandas, OpenCV",
   // },
-  
   {
-    title: "CSS",
-    icon: ic_css,
+    title: "FRAMEWORK",
+    icon: ic_framework,
+    skillService: "Flask, Django, Flutter, Codeigniter, Laravel, Talwindcss, Bootstrap, React, Tensorflow",
   },
   
   {
-    title: "JAVASCRIPT",
-    icon: ic_javascript,
+    title: "OTHER",
+    icon: ic_development,
+    skillService: "HTML, Git, Docker, AWS, Ms Office, Heroku, Adobe",
   },
   
-  {
-    title: "JAVA",
-    icon: ic_java,
-  },
-  {
-    title: "DART",
-    icon: ic_dart,
-  },
 ];
 const skillservices = [
   {
     databaseSkills: "MySQL, PostgreSQL, SQLITE, MongoDB",
     librarySkills: "Numpy, Pandas, OpenCV",
     frameworkSkills: "Flask, Django, Flutter, Codeigniter, Laravel, Talwindcss, Bootstrap, React, Tensorflow",
-    otherSkills: "HTML, Git, Docker, AWS, Heroku",
+    otherSkills: "HTML, Git, Docker, AWS, Ms Office, Heroku, Adobe",
   },
-  // {
-  //   languageSkills: "Python, Php, JavaScripts, Dart, Html, Css",
-  // },
-  
-  // {
-  //   languageSkills: "Python, Php, JavaScripts, Dart, Html, Css",
-  // },
-  // {
-  //   languageSkills: "Python, Php, JavaScripts, Dart, Html, Css",
-  // },
 ];
 export { services,skillservices};

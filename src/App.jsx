@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
-import { About, Hero, Navbar } from "./components";
+import { About, Hero, Navbar, Contact, Works  } from "./components";
 import { ReactComponent as Hexagon } from "./assets/hexagon.svg";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
 function App() {
   const numHexagonSVGs = 30;
   return (
@@ -31,6 +31,7 @@ function App() {
           <Hero />
         </div>
         <About />
+        <Works/>
         <Contact/>
       </div>
     </BrowserRouter>
