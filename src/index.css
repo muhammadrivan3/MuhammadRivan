@@ -271,9 +271,31 @@
   padding: 5px 5px;
   margin: 0 40px;
   /* animation: animates 3s linear infinite; */
-  text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
-    0 0 200px #0072ff;
+  /* text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+    0 0 200px #0072ff; */
   margin: 10px;
+}
+#youtube:hover {
+  background-color: #fa1111;
+  text-shadow: none;
+}
+#instagram:hover {
+  background: linear-gradient(45deg, rgba(60, 17, 250, 1), rgba(255, 198, 0, 1));
+  text-shadow: none;
+}
+#twitter:hover {
+  background-color: #036cf5;
+  text-shadow: none;
+}
+#github:hover {
+  
+  color: #000000;
+  background-color: #fefefe;
+  text-shadow: none;
+}
+#facebook:hover {
+  background-color: #0258c9;
+  text-shadow: none;
 }
 #twitter {
   animation-delay: 0.3s;
@@ -358,10 +380,10 @@
   height: 300px;
 }
 
-.swiper-slide img {
+/* .swiper-slide img {
   display: block;
   width: 100%;
-}
+} */
 
 /* Initial styling for all cardSkills */
 .cardSkills {
@@ -388,7 +410,8 @@
 }
 
 .detailCard {
-  width: 0; /* Start with 0 width */
+  width: 0;
+  height: 0;/* Start with 0 width */
   overflow: hidden;
   transition: width 0.3s; /* Faster transition for smoother effect */
   display: block;
@@ -402,5 +425,6 @@
 
 .cardSkills:hover .detailCard {
   width: 90%;
-  transition: width 0.3s; /* Faster transition for smoother effect */
+  height: 50%;
+  transition: width 0.3s,height 0.3s; /* Faster transition for smoother effect */
 }

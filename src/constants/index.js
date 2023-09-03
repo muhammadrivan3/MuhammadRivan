@@ -1,4 +1,4 @@
-import { ic_development,ic_db,ic_framework,ic_cpp,ic_java,ic_php,ic_react,ic_css,ic_html,ic_javascript,ic_dart } from "../assets";
+import { ic_development,ic_db,ic_framework,ss_ecommerce,ss_smk,ss_smkjambi } from "../assets";
 
 export const navLinks = [
      {
@@ -9,10 +9,10 @@ export const navLinks = [
       id: "projects",
       title: "Projects",
     },
-    {
-      id: "contact",
-      title: "Contact",
-    },
+    // {
+    //   id: "contact",
+    //   title: "Contact",
+    // },
 ]
 const services = [
   {
@@ -26,11 +26,6 @@ const services = [
     icon: ic_db,
   },
   
-  // {
-  //   title: "LIBRARY",
-  //   icon: ic_cpp,
-  //   skillService: "Numpy, Pandas, OpenCV",
-  // },
   {
     title: "FRAMEWORK",
     icon: ic_framework,
@@ -44,12 +39,24 @@ const services = [
   },
   
 ];
-const skillservices = [
+const allProjects = [
   {
-    databaseSkills: "MySQL, PostgreSQL, SQLITE, MongoDB",
-    librarySkills: "Numpy, Pandas, OpenCV",
-    frameworkSkills: "Flask, Django, Flutter, Codeigniter, Laravel, Talwindcss, Bootstrap, React, Tensorflow",
-    otherSkills: "HTML, Git, Docker, AWS, Ms Office, Heroku, Adobe",
+    titleProjects: "E-Commerce",
+    imageProjects: ss_ecommerce,
+    descProjects: "I created this project using the dart flutter language.",
+    linkProjects: "https://github.com/muhammadrivan3/e-ecommerce",
+  },
+  {
+    titleProjects: "Attendance",
+    imageProjects: ss_smk,
+    descProjects: "I created this project, where attendance filling becomes online, and uses the waterfall method.",
+    linkProjects: "https://github.com/username/repository",
+  },
+  {
+    titleProjects: "Decision making system",
+    imageProjects: ss_smkjambi,
+    descProjects: "I made this project, to find out the performance of teachers who teach at school, using the Decision making system method.",
+    linkProjects: "https://github.com/muhammadrivan3/SMK_1_PASAMAN",
   },
 ];
-export { services,skillservices};
+export { services,allProjects};

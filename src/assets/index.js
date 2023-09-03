@@ -15,8 +15,10 @@ import ic_javascript from './ic_javascript.svg'
 import ic_dart from './ic_dart.svg'
 import ic_db from './ic_db.png'
 import ic_framework from './ic_framework.png'
-
-
+import ic_github from './ic_github.svg'
+import ss_ecommerce from './ss_ecommerce.jpg'
+import ss_smk from './ss_smk.jpg'
+import ss_smkjambi from './ss_smkjambi.jpg'
 
 export{
     mrlogo,
@@ -36,4 +38,8 @@ export{
     ic_dart,
     ic_db,
     ic_framework,
+    ic_github,
+    ss_ecommerce,
+    ss_smk,
+    ss_smkjambi
 }

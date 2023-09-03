@@ -32,7 +32,7 @@ function App() {
         </div>
         <About />
         <Works/>
-        <Contact/>
+        {/* <Contact/> */}
       </div>
     </BrowserRouter>
   );
