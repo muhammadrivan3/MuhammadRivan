@@ -363,6 +363,7 @@
   left: 4px;
   right: 4px;
   bottom: 4px;
+  /* background-color: #040714; */
   background-color: #050816;
   clip-path:  polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 } 

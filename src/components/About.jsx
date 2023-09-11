@@ -48,7 +48,7 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-2 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I am a student, I enjoy problem solving and coding, I will and always
         try my best for whatever work I do, I have worked on technologies such
@@ -68,3 +68,4 @@ const About = () => {
 };
 
 export default SectionWrapper(About, "about");
+// export default About;

@@ -10,13 +10,13 @@ function App() {
       <div className="relative z-0 bg-primary">
         <div className="video-background">
           {/* hexagon */}
-          <div className="w-full h-full object-cover z-0 absolute">
+          <div className="bg-[#02040c] w-full h-full object-cover z-0 absolute">
             <div className="row-hexagon">
               {Array.from({ length: numHexagonSVGs }).map((_, index) => {
                 return <div key={"hexagonTop"+index.toString()} className="hexagon"></div>;
               })}
             </div>
-            {Array.from({ length: 10 }).map((_, index) => {
+            {Array.from({ length: 30 }).map((_, index) => {
               return (
                 <div key={"hexagonContainer"+index} className="row-hexagon">
                   {Array.from({ length: numHexagonSVGs }).map((_, index) => {
@@ -31,7 +31,7 @@ function App() {
           <Hero />
         </div>
         <About />
-        <Works/>
+        {/* <Works/> */}
         {/* <Contact/> */}
       </div>
     </BrowserRouter>
