@@ -4,7 +4,7 @@ import svgr from "vite-plugin-svgr";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(),svgr()],
-  base: 'https://muhammadrivan3.github.io/', // Sesuaikan dengan URL repository GitHub Pages Anda
+  base: '/MuhammadRivan', // Sesuaikan dengan URL repository GitHub Pages Anda
   build: {
     outDir: 'dist', // Direktori output untuk build produksi
   },
