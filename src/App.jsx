@@ -1,40 +1,28 @@
-import { useState, useEffect } from "react";
-import { BrowserRouter } from "react-router-dom";
-import { About, Hero, Navbar, Contact, Works  } from "./components";
-import { ReactComponent as Hexagon } from "./assets/hexagon.svg";
-// import Contact from "./components/Contact";
+
+import { Hero, SideMenu, About } from "./components";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Resume from "./components/Resume";
 function App() {
-  const numHexagonSVGs = 30;
   return (
-    <BrowserRouter>
-      <div className="relative z-0 bg-primary">
-        <div className="video-background">
-          {/* hexagon */}
-          <div className="bg-[#02040c] w-full h-full object-cover z-0 absolute">
-            <div className="row-hexagon">
-              {Array.from({ length: numHexagonSVGs }).map((_, index) => {
-                return <div key={"hexagonTop"+index.toString()} className="hexagon"></div>;
-              })}
-            </div>
-            {Array.from({ length: 30 }).map((_, index) => {
-              return (
-                <div key={"hexagonContainer"+index} className="row-hexagon">
-                  {Array.from({ length: numHexagonSVGs }).map((_, index) => {
-                    return <div key={"hexagonChild"+index} className="hexagon"></div>;
-                  })}
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <div className="relative z-0 bg-[#181818]">
+                  <Hero />
+                  <About />
+                  <SideMenu />
                 </div>
-              );
-            })}
-          </div>
-          <div className="transparent-gradient" />
-          <Navbar />
-          <Hero />
-        </div>
-        <About />
-        {/* <Works/> */}
-        {/* <Contact/> */}
-      </div>
-    </BrowserRouter>
+              </>
+            }
+          />
+          <Route path="/resume" element={<Resume/>}/>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

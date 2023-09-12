@@ -2,10 +2,9 @@ import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motions.js";
 import { SectionWrapper } from "../hoc";
-import { useState } from "react";
+import { services } from "../constants";
 
 const ServiceCard = ({ index, title, icon, skillService }) => {
   return (
@@ -16,12 +15,8 @@ const ServiceCard = ({ index, title, icon, skillService }) => {
           className="w-full green-pink-gradient p-[1px] rounded-[10px] shadow-card"
         >
           <div
-            // option={{ max: 45, scale: 2, speed: 450 }}
-            className=" bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+            className=" bg-black rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
           >
-            {/* <div className="bg-[#eb3d34] rounded-[10%] mt-[-30%] ml-[-120%]" >
-              <span className="p-[10px]">Skills</span>
-            </div> */}
             <div className="postCard">
               <img
                 src={icon}
