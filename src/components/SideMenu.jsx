@@ -23,7 +23,7 @@ const SideMenu = () => {
             </a>
           </div>
           <div className="bg-black bg-opacity-50 flex p-2 mt-2 container-side-menu rounded-[10px]">
-            <Link className="flex items-center" to="/resume" target="_blank" rel="noopener noreferrer">
+            <Link className="flex items-center" to="/MuhammadRivan/resume" target="_blank" rel="noopener noreferrer">
               <img src={ic_resume} alt="About" className="w-10" />
               <span className="ml-2">Resume</span>
             </Link>

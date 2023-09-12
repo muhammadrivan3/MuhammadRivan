@@ -8,7 +8,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route
-            path="/"
+            path="/MuhammadRivan"
             element={
               <>
                 <div className="relative z-0 bg-[#181818]">
@@ -19,7 +19,7 @@ function App() {
               </>
             }
           />
-          <Route path="/resume" element={<Resume/>}/>
+          <Route path="/MuhammadRivan/resume" element={<Resume/>}/>
         </Routes>
       </BrowserRouter>
     </>
