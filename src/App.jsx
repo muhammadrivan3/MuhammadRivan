@@ -4,9 +4,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      <BrowserRouter basename={"/"}>
+      <BrowserRouter >
         <Routes>
-          <Route
+          {/* <Route
             path="/MuhammadRivan"
             element={
               <>
@@ -17,8 +17,8 @@ function App() {
                 </div>
               </>
             }
-          />
-          <Route path="/MuhammadRivan/resume" element={<Resume/>}/>
+          /> */}
+          <Route path="/MuhammadRivan" element={<Resume/>}/>
         </Routes>
       </BrowserRouter>
     </>
