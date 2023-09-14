@@ -1,11 +1,10 @@
 
 import { Hero, SideMenu, About,Resume } from "./components";
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      <HashRouter>
+      <BrowserRouter >
         <Routes>
           <Route
             path="/"
@@ -19,12 +18,11 @@ function App() {
               </>
             }
           />
-          <Route path="/resume" element={<Resume />} />
+          {/* <Route path="/resume" element={<Resume/>}/> */}
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   );
 }
-
 
 export default App;
