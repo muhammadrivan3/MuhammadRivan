@@ -7,7 +7,7 @@ const SideMenu = () => {
     <div className="fixed inset-0" style={{ pointerEvents: "none" }}>
       <div className="flex justify-right items-center">
         <div
-          className="container-allside-menu bg-black bg-opacity-50 p-5 absolute inset-y-0 right-0 top-[30%] h-[30%] w-[80px] rounded-[10px] mr-[-10px] z-5"
+          className="container-allside-menu bg-black bg-opacity-50 p-5 absolute inset-y-0 right-0 top-[30%] h-[30%] w-[80px] rounded-[10px] mr-[-10px] z-5 flex flex-col justify-around items-center"
           style={{ pointerEvents: "auto" }}
         >
           <div className="bg-black bg-opacity-50 flex p-2 mt-2 container-side-menu rounded-[10px]">
