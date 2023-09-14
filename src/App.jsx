@@ -1,11 +1,10 @@
 
-import { Hero, SideMenu, About } from "./components";
+import { Hero, SideMenu, About,Resume } from "./components";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Resume from "./components/Resume";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={"/"}>
         <Routes>
           <Route
             path="/MuhammadRivan"
