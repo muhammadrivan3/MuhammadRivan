@@ -6,7 +6,7 @@ function App() {
     <>
       <BrowserRouter >
         <Routes>
-          {/* <Route
+          <Route
             path="/MuhammadRivan"
             element={
               <>
@@ -17,8 +17,8 @@ function App() {
                 </div>
               </>
             }
-          /> */}
-          <Route path="/MuhammadRivan" element={<Resume/>}/>
+          />
+          <Route path="/MuhammadRivan/resume" element={<Resume/>}/>
         </Routes>
       </BrowserRouter>
     </>
